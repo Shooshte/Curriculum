@@ -9,6 +9,10 @@ import {
 
 import workExperience from "../../data/workExperience.json";
 
+const ContentContainer = styled.div`
+	margin-left: 2rem;
+`;
+
 const HeadingContainer = styled.div`
 	display: flex;
 	flex-wrap: wrap;
@@ -30,7 +34,7 @@ const WorkExperience: React.FC = () => {
 			<StyledHeading>Work experience</StyledHeading>
 
 			{workExperience.map((job, i) => (
-				<React.Fragment key={i}>
+				<ContentContainer key={i}>
 					<HeadingContainer>
 						<StyledSubheading color="#0097E6">
 							{`[${job.startDate} - ${job.endDate}]`}
@@ -40,7 +44,7 @@ const WorkExperience: React.FC = () => {
 					<ParagraphContainer>
 						<StyledParagraph>{job.text}</StyledParagraph>
 					</ParagraphContainer>
-				</React.Fragment>
+				</ContentContainer>
 			))}
 		</React.Fragment>
 	);

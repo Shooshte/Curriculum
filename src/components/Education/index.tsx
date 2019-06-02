@@ -9,6 +9,10 @@ import {
 
 import education from "../../data/education.json";
 
+const ContentContainer = styled.div`
+	margin-left: 2rem;
+`;
+
 const HeadingContainer = styled.div`
 	display: flex;
 	h3 {
@@ -26,7 +30,7 @@ const Education: React.FC = () => {
 			<StyledHeading>Education</StyledHeading>
 
 			{education.map((school, i) => (
-				<React.Fragment key={i}>
+				<ContentContainer key={i}>
 					<HeadingContainer>
 						<StyledSubheading color="#0097E6">
 							[{school.year}]
@@ -36,7 +40,7 @@ const Education: React.FC = () => {
 					<ParagraphContainer>
 						<StyledParagraph>{school.subheading}</StyledParagraph>
 					</ParagraphContainer>
-				</React.Fragment>
+				</ContentContainer>
 			))}
 		</React.Fragment>
 	);
