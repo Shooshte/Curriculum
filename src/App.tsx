@@ -36,6 +36,7 @@ const App: React.FC = () => {
 			<PersonalInfo />
 			<StyledHr />
 			<Education />
+			<StyledHr />
 		</StyledContainer>
 	);
 };
