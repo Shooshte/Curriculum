@@ -7,34 +7,38 @@ import {
 	StyledHeading
 } from "../../styledComponents/common";
 
-import education from "../../data/education.json";
+import workExperience from "../../data/workExperience.json";
 
 const HeadingContainer = styled.div`
 	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 0.5em;
 	h3 {
 		margin-right: 0.5em;
+		padding-bottom: 0;
 	}
 `;
 
 const ParagraphContainer = styled.div`
 	margin-left: 1rem;
+	padding-bottom: 1em;
 `;
 
-const Education: React.FC = () => {
+const WorkExperience: React.FC = () => {
 	return (
 		<React.Fragment>
-			<StyledHeading>Education</StyledHeading>
+			<StyledHeading>Work experience</StyledHeading>
 
-			{education.map((school, i) => (
+			{workExperience.map((job, i) => (
 				<React.Fragment key={i}>
 					<HeadingContainer>
 						<StyledSubheading color="#0097E6">
-							[{school.year}]
+							{`[${job.startDate} - ${job.endDate}]`}
 						</StyledSubheading>
-						<StyledSubheading>{school.heading}</StyledSubheading>
+						<StyledSubheading>{job.title}</StyledSubheading>
 					</HeadingContainer>
 					<ParagraphContainer>
-						<StyledParagraph>{school.subheading}</StyledParagraph>
+						<StyledParagraph>{job.text}</StyledParagraph>
 					</ParagraphContainer>
 				</React.Fragment>
 			))}
@@ -42,4 +46,4 @@ const Education: React.FC = () => {
 	);
 };
 
-export default Education;
+export default WorkExperience;
