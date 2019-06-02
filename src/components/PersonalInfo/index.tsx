@@ -11,11 +11,7 @@ import mailIcon from "./mailIcon.svg";
 import personalInfo from "../../data/personalInfo.json";
 
 // styled components
-import {
-	StyledHeading,
-	StyledParagraph,
-	StyledHr
-} from "../../styledComponents/common";
+import { StyledHeading, StyledParagraph } from "../../styledComponents/common";
 
 const HeaderContainer = styled.div`
 	display: flex;
