@@ -18,14 +18,6 @@ import {
 	StyledHr
 } from "../../styledComponents/common";
 
-interface Props {
-	publishDate: string;
-	name: string;
-	birthDate: string;
-	address: string;
-	email: string;
-}
-
 const HeaderContainer = styled.div`
 	display: flex;
 	align-items: center;
