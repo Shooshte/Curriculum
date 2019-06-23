@@ -6,6 +6,7 @@ import metadata from "./data/metadata.json";
 import PersonalInfo from "./components/PersonalInfo";
 import Education from "./components/Education";
 import WorkExperience from "./components/WorkExperience";
+import Skills from "./components/Skills";
 
 import { StyledHr } from "./styledComponents/common";
 
@@ -39,6 +40,8 @@ const App: React.FC = () => {
 			<Education />
 			<StyledHr />
 			<WorkExperience />
+			<StyledHr />
+			<Skills />
 			<StyledHr />
 		</StyledContainer>
 	);

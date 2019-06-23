@@ -1,0 +1,21 @@
+[
+{
+	"rating": 1,
+	"text": "I understand the general principles behind the topic and have done tutorials or extensive reading. I have little practical experience."
+},
+{
+	"rating": 2,
+	"text": "I have used the skill in a practical manner by either building proof of concept or hobby applications."
+},
+{
+	"rating": 3,
+	"text": "I have work experience in a professional setting. I might need a transition period before starting work."
+},
+{
+	"rating": 4,
+	"text": "I have used this skill for an extended time. I might need a short transition period before starting work."
+},
+{
+	"rating": 5,
+	"text": "I have extensive knowledge and use this skill regularly."
+}]

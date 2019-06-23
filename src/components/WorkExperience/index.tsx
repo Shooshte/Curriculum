@@ -28,26 +28,24 @@ const ParagraphContainer = styled.div`
 	padding-bottom: 1em;
 `;
 
-const WorkExperience: React.FC = () => {
-	return (
-		<React.Fragment>
-			<StyledHeading>Work experience</StyledHeading>
+const WorkExperience: React.FC = () => (
+	<React.Fragment>
+		<StyledHeading>Work experience</StyledHeading>
 
-			{workExperience.map((job, i) => (
-				<ContentContainer key={i}>
-					<HeadingContainer>
-						<StyledSubheading color="#0097E6">
-							{`[${job.startDate} - ${job.endDate}]`}
-						</StyledSubheading>
-						<StyledSubheading>{job.title}</StyledSubheading>
-					</HeadingContainer>
-					<ParagraphContainer>
-						<StyledParagraph>{job.text}</StyledParagraph>
-					</ParagraphContainer>
-				</ContentContainer>
-			))}
-		</React.Fragment>
-	);
-};
+		{workExperience.map((job, i) => (
+			<ContentContainer key={i}>
+				<HeadingContainer>
+					<StyledSubheading color="#0097E6">
+						{`[${job.startDate} - ${job.endDate}]`}
+					</StyledSubheading>
+					<StyledSubheading>{job.title}</StyledSubheading>
+				</HeadingContainer>
+				<ParagraphContainer>
+					<StyledParagraph>{job.text}</StyledParagraph>
+				</ParagraphContainer>
+			</ContentContainer>
+		))}
+	</React.Fragment>
+);
 
 export default WorkExperience;

@@ -1,0 +1,27 @@
+[
+{
+	"name": "CSS",
+	"rating": 4,
+	"description": ["I know how to write CSS and SASS. For the past two years I have been using styled-components."]
+},
+{
+	"name": "Javascript",
+	"rating": 4,
+	"description": ["I know how to write ES5, ES6 and Typescript.","Iwrite unit tests using Jest and know how to write integration tests using PhantomJS.","For the last 3 years I’ve been writing Web Apps using ReactJS. Before that I have been using AngularJS for 6 months.","I have a beginners understanding of GraphQL and NodeJS."]
+},
+{
+	"name": "MongoDB",
+	"rating": 2,
+	"description": ["I can write MongoDB queries, do basic shema management and data cleaning."]
+},
+{
+	"name": "Web design",
+	"rating": 3,
+	"description": ["I have experience designing static landing pages. I’ve also designed parts of web app interfaces."]
+},
+{
+	"name": "Project management",
+	"rating": 3,
+	"description": ["I have been a project manager and product owner for 8 months in a small team. We built a finished product from a proof of concept application."]
+}
+]
