@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "01586cd2c51fa31e9eaa",
-    "url": "/curriculum/static/css/main.544f570f.chunk.css"
+    "revision": "9b9f80fb887ab0a629e59ec096bbeba6",
+    "url": "/curriculum/static/media/Cogs_icon_gray.9b9f80fb.svg"
   },
   {
-    "revision": "01586cd2c51fa31e9eaa",
-    "url": "/curriculum/static/js/main.bf9508bd.chunk.js"
+    "revision": "e521096d83e66d0b8918",
+    "url": "/curriculum/static/css/main.32863cc1.chunk.css"
   },
   {
     "revision": "acad9920e4b64e8f50f7",
@@ -20,8 +20,8 @@ self.__precacheManifest = [
     "url": "/curriculum/static/media/Cogs_icon_blue.19151d58.svg"
   },
   {
-    "revision": "9b9f80fb887ab0a629e59ec096bbeba6",
-    "url": "/curriculum/static/media/Cogs_icon_gray.9b9f80fb.svg"
+    "revision": "e521096d83e66d0b8918",
+    "url": "/curriculum/static/js/main.1c783827.chunk.js"
   },
   {
     "revision": "b855797128c5f01acc429cf03e407444",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/curriculum/static/media/mailIcon.4fe6cbb9.svg"
   },
   {
-    "revision": "7a1ec1ef9b6ceeb30eb4bbdae95d003a",
+    "revision": "d5502aea732086c1c8c3d83c36d2d78c",
     "url": "/curriculum/index.html"
   }
 ];
